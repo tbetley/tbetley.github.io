@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="app.css">
     <!-- Font Awesome - Icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -51,8 +54,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title text-center">About Me</h2>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis voluptates molestias nostrum itaque inventore reiciendis laudantium nesciunt, error voluptatem!</p>
+                        <p class="card-text">Motivated self-starter, career Soldier-turned software developer.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -68,86 +71,110 @@
         <div id="projects" class="jumbotron text-center">
             <h2 class="display-5">Projects</h2>
         </div>
+        <!-- alien invaders  -->
         <div id="item" class="row">
             <div class="col-md-6">
-                <div class="card">
+                <div class="card shadow-sm">
                     <div class="card-body">
-                        <h2>Project Name</h2>
-                        <p class="card-text">Project explanation: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium officiis quam consectetur ea sunt laborum error provident quas officia doloribus.</p>
+                        <h2>Alien Invaders</h2>
+                        <p class="card-text">A 2D game inspired by Space Invaders. Used object oriented programming principles to implement game logic. Rendered using OpenGL and custom shaders instead of an existing graphics library. Used git and GitHub for version control.</p>
+                        <h5>Tools Used</h5>
+                        <ul>
+                            <li>C++</li>
+                            <li>OpenGL</li>
+                            <li>Git and GitHub</li>
+                            <li>Visual Studio</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
+                <div class="card links shadow-sm">
                     <div class="card-body">
-                        <h2 class="card-title text-center">Project gif and link</h2>
-                        <p class="card-text">insert media</p>
+                        <a href="https://github.com/tbetley/Alien-Invaders" target="_blank"><img class="card-img" src="images/alienInvadersExample.gif"></a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- dark labyrinth  -->
         <div id="item" class="row">
             <div class="col-md-6">
-                <div class="card">
+                <div class="card shadow-sm">
                     <div class="card-body">
-                        <h2>Project Name</h2>
-                        <p class="card-text">Project explanation: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium officiis quam consectetur ea sunt laborum error provident quas officia doloribus.</p>
+                        <h2>Dark Labyrinth</h2>
+                        <p class="card-text">CLI text-based maze game created in C++. Uses a 2D linked graph to create linked spaces in which the player can interact with. Takes advantage of inheritance and polymorphism to facilitate the interaction between spaces and track player collected items.</p>
+                        <h5>Tools Used</h5>
+                        <ul>
+                            <li>C++</li>
+                            <li>Make</li>
+                            <li>Git and GitHub</li>
+                            <li>Visual Studio Code</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
+                <div class="card links shadow-sm">
                     <div class="card-body">
-                        <h2 class="card-title text-center">Project gif and link</h2>
-                        <p class="card-text">insert media</p>
+                        <a href="https://github.com/tbetley/Dark-Labyrinth" target="_blank"><img class="card-img" src="images/darkLabyrinthExample.gif"></a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- MASM program  -->
         <div id="item" class="row">
             <div class="col-md-6">
-                <div class="card">
+                <div class="card shadow-sm">
                     <div class="card-body">
-                        <h2>Project Name</h2>
-                        <p class="card-text">Project explanation: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium officiis quam consectetur ea sunt laborum error provident quas officia doloribus.</p>
+                        <h2>Combinatorics in Assembly</h2>
+                        <p class="card-text">Math game created in x86 assembly. Uses procedures, the system stack, and base-indexed addressing to create a modular program structure. Quickly determines the factorials of randomly generated numbers using recursion. Manually validates and converts user string input into 32-bit integers.</p>
+                        <h5>Tools Used</h5>
+                        <ul>
+                            <li>MASM</li>
+                            <li>Visual Studio</li>
+                            <li>Visual Studio MASM Debugger</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title text-center">Project gif and link</h2>
-                        <p class="card-text">insert media</p>
+                    <div class="card links shadow-sm">
+                        <a href="https://github.com/tbetley/Combinatorics-in-Assembly/blob/master/program6b.asm" target="_blank"><img class="card-img" src="images/masm.PNG"></a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- portfolio site  -->
         <div id="item" class="row">
             <div class="col-md-6">
-                <div class="card">
+                <div class="card shadow-sm">
                     <div class="card-body">
-                        <h2>Project Name</h2>
-                        <p class="card-text">Project explanation: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium officiis quam consectetur ea sunt laborum error provident quas officia doloribus.</p>
+                        <h2>Personal Portfolio Site</h2>
+                        <p class="card-text">Personal portfolio site was created to showcase recent projects I have created. The site uses the typical web languages along with Bootstrap 4 to create a decent looking static site. Currently the site is hosted and deployed using GitHub Pages.</p>
+                        <h5>Tools Used</h5>
+                        <ul>
+                            <li>HTML/CSS/JavaScript</li>
+                            <li>Bootstrap 4</li>
+                            <li>Git and GitHub</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title text-center">Project gif and link</h2>
-                        <p class="card-text">insert media</p>
+                <div class="card h-100 gitHubImg">
+                    <div class="card links shadow-sm h-100">
+                        <a class="mx-auto mt-auto mb-auto" href="https://github.com/tbetley/tbetley.github.io" target="_blank"><img class="" src="images/GitHub-Mark-120px-plus.png"></a>
                     </div>
                 </div>
             </div>
         </div>
+        <hr>
         <!-- experience section -->
         <div id="experience" class="jumbotron text-center">
             <h2 class="display-5">Experience</h2>
         </div>
-
+        <hr>
         <!-- contact section -->
         <div id="contact" class="jumbotron text-center">
             <h2 class="display-5">Contact</h2>
@@ -160,5 +187,23 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+        // executes when HTML-Document is loaded and DOM is ready
+            console.log("document is ready");
+        
+
+            $( ".card.links" ).hover(
+                function() {
+                    $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+                    }, function() {
+                    $(this).removeClass('shadow-lg');
+                }
+            );
+        
+        // document ready  
+        });
+    </script>
 </body>
 </html>
