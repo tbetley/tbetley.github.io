@@ -27,14 +27,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#intContent">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#intContent">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#experience">Experience</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
@@ -55,7 +55,16 @@
                     <div class="card-body">
                         <h2 class="card-title text-center">About Me</h2>
                         <p class="card-text">Motivated self-starter, career Soldier-turned software developer.</p>
-                        <p></p>
+                        <p>After serving a total of 8 years in the military, with the last 3 years on active duty as an infantry officer, I decided to leave active duty to pursue a career in tech.</p>
+                        <h3>Education</h3>
+                        <p>BS in Physics from UW La-Crosse. Graduated May 2016</p>
+                        <p>BS in Computer Science from Oregon State University. Planned Graduation December 2020.</p>
+                        <h3>Skills</h3>
+                        <p>Languages: C, C++, HTML/CSS, JavaScript, SQL, MASM</p>
+                        <p>Technologies: Bootstrap, jQuery, MongoDB, NodeJS, Git, Visual Studio</p>
+                        <h3>Experience</h3>
+                        <p>Infantry Officer at US Army: May 2016 - July 2019</p>
+                        <p>Combat Medic/Cadet at Wisconsin National Guard: October 2011 - May 2016</p>
                     </div>
                 </div>
             </div>
@@ -72,7 +81,7 @@
             <h2 class="display-5">Projects</h2>
         </div>
         <!-- alien invaders  -->
-        <div id="item" class="row">
+        <div class="row item">
             <div class="col-md-6">
                 <div class="card shadow-sm">
                     <div class="card-body">
@@ -97,7 +106,7 @@
             </div>
         </div>
         <!-- dark labyrinth  -->
-        <div id="item" class="row">
+        <div class="row item">
             <div class="col-md-6">
                 <div class="card shadow-sm">
                     <div class="card-body">
@@ -122,7 +131,7 @@
             </div>
         </div>
         <!-- MASM program  -->
-        <div id="item" class="row">
+        <div class="row item">
             <div class="col-md-6">
                 <div class="card shadow-sm">
                     <div class="card-body">
@@ -146,7 +155,7 @@
             </div>
         </div>
         <!-- portfolio site  -->
-        <div id="item" class="row">
+        <div class="row item">
             <div class="col-md-6">
                 <div class="card shadow-sm">
                     <div class="card-body">
@@ -170,14 +179,24 @@
             </div>
         </div>
         <hr>
-        <!-- experience section -->
-        <div id="experience" class="jumbotron text-center">
+        <!-- experience section *ADD*-->
+        <!-- <div id="experience" class="jumbotron text-center">
             <h2 class="display-5">Experience</h2>
         </div>
-        <hr>
+        <hr> -->
         <!-- contact section -->
         <div id="contact" class="jumbotron text-center">
             <h2 class="display-5">Contact</h2>
+        </div>
+        <div class="row item">
+            <div class="col-12">
+                <div class="card links">
+                    <div class="card-body text-center">
+                        <a class="text-dark" href="https://www.linkedin.com/in/tylerbetley001" target="_blank"><h3><img class="linkedInImg" src="images/LI-In-Bug.png" alt=""> LinkedIn</h3></a>
+                        <a class="text-dark" href="https://github.com/tbetley" target="_blank"><h3><img src="images/GitHub-Mark-32px.png" alt=""> GitHub</h3></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -201,8 +220,10 @@
                     $(this).removeClass('shadow-lg');
                 }
             );
-        
-        // document ready  
+        });
+
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
         });
     </script>
 </body>

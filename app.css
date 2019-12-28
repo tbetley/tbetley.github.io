@@ -11,10 +11,15 @@ body {
     background-color: #ec3737e1;
 }
 
-#item {
+.item {
     margin-bottom: 30px;
 }
 
 .gitHubImg {
     min-height: 200px;
+}
+
+.linkedInImg {
+    height: 32px;
+    width: 32px;
 }
